@@ -16,7 +16,7 @@ namespace hazırStringMetotlar
             Console.Write("Şifrenizi giriniz:");
             string sifre = Console.ReadLine();
             string kayıtlıİsim = "Sümeyye";
-            string kayıtlıSifre = "13011999";
+            string kayıtlıSifre = "123456789";
             int x = string.Compare(kAdi,kayıtlıİsim);
             int y = string.Compare(sifre, kayıtlıSifre);
             if (x==0&&y==0)
